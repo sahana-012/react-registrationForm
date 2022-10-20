@@ -1,0 +1,100 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ea580c;
+  font-size: 40px;
+}
+
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.label-element {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  color: #475569;
+}
+
+.input-element {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.error-message {
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.button {
+  background-color: #ea580c;
+  padding: 7px 8px 7px 8px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+  align-self: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.success-image {
+  width: 100px;
+}
+
+.success-message {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
